@@ -1,0 +1,198 @@
+
+/* Utils */
+html, body {
+    box-sizing: border-box;
+}
+
+.uppercase {
+    text-transform:uppercase;
+}
+
+
+/* Main */
+
+header img {
+    height: 58px;
+    width: 62px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#explore h1 {
+    color: black;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+h2 {
+    color: white;
+}
+header h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 29px;
+}
+
+#mbti-quiz h2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#mbti-quiz h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+header {
+    background-color: #60c4ba;
+    padding: 60px 0 150px;
+}
+
+#mbti-quiz {
+    background-color: #333333;
+}
+
+.container {
+    width: 980px;
+}
+
+#mbti-quiz .row {
+    padding: 40px 0 80px;
+    border-bottom: 1px solid #929292;
+}
+
+#mbti-quiz img {
+    margin: 0 auto;
+    display: block;
+}
+
+#mbti-quiz .row button {
+    background-color: #60c4ba;
+    border: 0;
+    display: block;
+    border-radius:3px;
+    padding: 25px;
+    margin: 55px auto 0;
+    width: 300px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#mbti-quiz .row button:hover {
+  background-color: #72cec3;
+}
+
+#explore .container h1 {
+    margin-top: 50px;
+}
+
+#explore .container div {
+    background-repeat:no-repeat;
+    height: 318px;
+    width: 460px;
+    float:left;
+    margin-top: 20px;
+}
+
+#explore p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+#explore .container div h5 {
+    margin-top: 100px;
+    color: white;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#explore .container div h4 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#explore .container div ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+#explore .container div ul a:link {
+    float: left;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #60c4ba;
+    text-align: center;
+    padding: 6px 0;
+    text-decoration: none;
+    margin: 50px 0 0 28px;
+    border-radius:3px;
+    width: 80px;
+}
+
+#explore .container div ul a:hover {
+    background-color: #72cec3;
+}
+
+#explore .container div ul a:visited {
+    color: #ffffff;
+}
+
+
+#the-artisan {
+    background-image:url('../images/SP.png');
+    margin-right: 20px;
+
+}
+
+#the-guardian {
+    background-image:url('../images/SJ.png');
+}
+
+#the-rationalist {
+    background-image:url('../images/NT.png');
+    margin-right: 20px;
+}
+
+#the-idealist {
+    background-image:url('../images/NF.png');
+}
+
+#explore .container {
+  margin-bottom: 60px;
+}
