@@ -1,0 +1,20 @@
+{
+  "name": "mbti",
+  "version": "0.0.0",
+  "description": "Refreshing my HTML/CSS skills. Here you go!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rachelcope/mbti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachelcope/mbti/issues"
+  },
+  "homepage": "https://github.com/rachelcope/mbti"
+}
